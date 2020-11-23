@@ -1,9 +1,12 @@
 
 function includes(arr, item) {
-    // for all i from 0 to arr.length - 1
-    //      if arr[i] is equal to item, return true
+    for (i = 0; i < arr.length; i++){
+         if (arr[i] === item) {
+             return true
+            }
+    }
 
-    // no match was found, return false
+    return false
 }
 
 const items = [
@@ -15,7 +18,7 @@ const items = [
     'Fishing rod'
 ]
 
-console.log(includes(items, 'Lego')) // Should be true
-console.log(includes(items, 'Teddybear')) // Should be true
-console.log(includes(items, 'Laser sword')) // Should be false
-console.log(includes(items, 'Playstation')) // Should be false
+console.log(includes(items, 'Lego')) 
+console.log(includes(items, 'Teddybear')) 
+console.log(includes(items, 'Laser sword')) 
+console.log(includes(items, 'Playstation')) 

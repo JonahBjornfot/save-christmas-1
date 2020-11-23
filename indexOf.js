@@ -1,6 +1,11 @@
 
 function indexOf(arr, item) {
-    
+    for (i = 0; i < arr.lenght; i++) {
+        if (arr[i] === item) {
+            return arr[i]
+        }
+    }
+    return -1
 }
 
 const items = [
