@@ -31,8 +31,8 @@ console.log(stringArray)
 console.log('\nTEST 3')
 const nummer = [12, 5, 9, 48, 56];
 const nyttNummer = nummer.map(x => x / 2);
-console.log(nyttNummer)
 console.log(nummer)
+console.log(nyttNummer)
 console.log(Math.max(...nummer))
 console.log(Math.max(...nyttNummer))
 console.log(Math.min(...nummer))

@@ -1,6 +1,5 @@
-
 function filter(arr, func) {
-
+    
 }
 
 // TEST 1
