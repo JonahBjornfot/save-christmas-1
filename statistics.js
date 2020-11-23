@@ -1,27 +1,22 @@
+const all = [1, 4, 8, 12, 16, 20];
+
 function max() {
-    let arr = Math.max(10, 20, 30, 40);
+    let arr = Math.max(...all);
     console.log(arr)
 }
 
 max();
 
 function min() {
-    let arr = Math.min(10, 20, 30, 40);
+    let arr = Math.min(...all);
     console.log(arr)
 }
 
 min();
 
 function mean() {
-    let arr = (10 + 20 + 30 + 40) / 4
-    console.log(arr)
+    let arr = (all[0] + all[1] + all[2] + all[3] + all[4] + all[5]) / 6
+    console.log(Math.round(arr))
 }
 
 mean();
-
-function name(arr) {
-    for (i = 0; i < arr.lenght; i++)
-    if (arr[i]) {
-        
-    }
-}
