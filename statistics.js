@@ -1,12 +1,27 @@
-
-function max(arr) {
-
+function max() {
+    let arr = Math.max(10, 20, 30, 40);
+    console.log(arr)
 }
 
-function min(arr) {
+max();
 
+function min() {
+    let arr = Math.min(10, 20, 30, 40);
+    console.log(arr)
 }
 
-function mean(arr) {
-    // Ledtråd: Börja med att räkna ut summan av alla element
+min();
+
+function mean() {
+    let arr = (10 + 20 + 30 + 40) / 4
+    console.log(arr)
+}
+
+mean();
+
+function name(arr) {
+    for (i = 0; i < arr.lenght; i++)
+    if (arr[i]) {
+        
+    }
 }
